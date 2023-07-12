@@ -23,6 +23,9 @@ async function Telegpt(query){
       return response.data.choices[0].text;
 }
 
+// export {tele}
+// export module tele
+
 module.exports = {
-    teleV : Telegpt
+    teleV: Telegpt
 }

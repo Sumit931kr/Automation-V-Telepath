@@ -20,6 +20,6 @@ async function Image_generate(text) {
 }
 
 module.exports = {
-    GI : Image_generate
+    DalleGenerateImage : Image_generate
 }
 
